@@ -10,6 +10,8 @@ body {
   display: flex;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   height: 100vh;
+  font-size: 32px;
+  font-weight: 800;
 }
 
 .side-image {
@@ -52,4 +54,89 @@ body {
 
 .credit a {
   color: white;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign-up-form p:nth-child(1) {
+  padding: 0 3rem 0 3rem;
+  width: 1100px;
+}
+
+.sign-up-form p:nth-child(2) {
+  padding: 0 3rem 3rem 3rem;
+}
+
+.sign-up-form p:nth-child(3) {
+  padding: 0 3rem 2rem 3rem;
+}
+
+.input-form {
+  box-shadow: 5px 2px 5px 5px lightgray;
+  padding-bottom: 3rem;
+  width: 1248px;
+}
+
+.input-form p:nth-child(1) {
+  padding: 1.5rem 0 1.5rem 3rem;
+}
+
+form {
+  display: flex;
+}
+
+fieldset {
+  margin-right: 3rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border: none;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input label {
+  font-size: 16px;
+  color: rgb(83, 78, 78);
+  letter-spacing: 3px;
+  margin-bottom: 3px;
+}
+
+.input input {
+  height: 2rem;
+  width: 300px;
+  border: 1px solid lightgray;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px 10px;
+}
+
+button {
+  align-self: flex-start;
+  margin: 2rem 3rem;
+  padding: 1.5rem 4rem;
+  font-size: 24px;
+  font-weight: 800;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(87, 5, 5);
+  color: white;
+}
+
+.sign-up-form p:last-child {
+  padding-left: 3rem;
+  font-size: 24px;
+}
+
+p a {
+  color: rgb(87, 5, 5);
+  text-decoration: none;
 }
