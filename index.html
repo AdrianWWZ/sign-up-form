@@ -24,7 +24,7 @@
       <p>You <em>know</em> you want to.</p>
       <div class="input-form">
         <p>Let's do this!</p>
-        <form action="https://httpbin.org/post" method="post">
+        <form action="https://httpbin.org/post" method="post" id="sign-form">
           <fieldset>
             <div class="input">
               <label for="first_name">*FIRST NAME</label>
@@ -65,9 +65,9 @@
           </fieldset>
         </form>
       </div>
-      <button type="submit">Create Account</button>
+      <button type="submit" form="sign-form">Create Account</button>
       <p>Already have an account? <a href="#">Log in</a></p>
     </div>
-    <script src="index.jx"></script>
+    <script src="index.js"></script>
   </body>
 </html>
